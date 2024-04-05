@@ -1,6 +1,11 @@
 /* Task 1: Hover Highlight Card */
 .hover-highlight-card {
     padding: 20px;
+
+}
+
+.hover-highlight-card:hover {
+    background-color: lightblue;
 }
 
 /* Task 2: Animated Navigation Menu */
@@ -47,4 +52,8 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+body {
+    background-image: lightblue;
 }
