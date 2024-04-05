@@ -1,11 +1,11 @@
 /* Task 1: Hover Highlight Card */
 .hover-highlight-card {
     padding: 20px;
-
 }
 
 .hover-highlight-card:hover {
     background-color: lightblue;
+    box-shadow: 10px 5px 5px rgb(90, 103, 118);
 }
 
 /* Task 2: Animated Navigation Menu */
@@ -20,8 +20,13 @@
     text-decoration: none;
     border-radius: 10%;
     padding: 4px;
-    color: #00aaff;
+    color: #456e82;
+    background-color: rgb(202, 224, 239);
+}
+
+.animated-nav-menu a:hover {
     background-color: white;
+    transition: background-color .05s;
 }
 
 /* Task 3: Button Press Animation */
@@ -31,6 +36,11 @@
     background-color: #00aaff;
     color: white;
     cursor: pointer;
+    transition:0.1s;
+}
+
+.button-press-animation button:active {
+    transform:scale(1.1,1.1);
 }
 
 /* Task 4: Simple Loading Spinner */
@@ -40,6 +50,20 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    margin: 20px;
+    animation-name: rotating-spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotating-spinner {
+    From {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
 }
 
 /* Task 5: Fading Gallery */
@@ -55,5 +79,5 @@
 }
 
 body {
-    background-image: lightblue;
+    background-image: linear-gradient(to bottom, rgb(66, 66, 150), rgb(133, 157, 199), lightblue);
 }
