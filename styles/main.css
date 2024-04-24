@@ -26,4 +26,5 @@ p {
 
 body {
     background-image: linear-gradient(to bottom, black, rgb(36, 36, 83), lightblue);
+    height: 100vh
 }
