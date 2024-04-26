@@ -46,8 +46,8 @@ for (let i = 0; i < arr.length; i++) {
 
 // Task #7: Using a normal forward for-loop (for (let i = 0; i < arr.length; i++)), use .at() to log each element of arr in reverse order (i.e. 5, 1, 4, 1, 3)
 console.log("Task 7");
-for (let i = 0; i < arr.length; i++) {
-    console.log(arr.at(-1, -2, -3, -4, -5));
+for (let i = 1; i <= 5; i++) {
+    console.log(arr.at(-i));
 }
 
 // Task #8 Starting with an empty array in a new variable, create a loop that adds the first 10 cube numbers (e.g. 1*1*1==1**3=1, 2*2*2==2**3==8, etc.) to the array, then log the array itself.
@@ -55,8 +55,9 @@ console.log("Task 8");
 cube = [];
 for (let i = 1; i <= 10; i++) {
     let numcube = i**3;
-    console.log(cube.push(numcube));
+    cube.push(numcube);
 }
+console.log(cube)
 
 //Starting with an empty array in a new variable, add the first 10 fibonacci numbers to the array, then log the array itself.
 //console.log("Task 9");
