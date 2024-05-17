@@ -15,6 +15,7 @@
     );
     
     cursor: url("../images/smalldot.png"), grab;
+
   }
   
 body {
@@ -23,10 +24,10 @@ body {
   background: #ddd;
   background-image: var(--gradient);
   background-size: 400%;
-  animation: bg-animation 20s infinite alternate;
+  animation: background-animation 20s infinite alternate;
 }
   
-@keyframes bg-animation {
+@keyframes background-animation {
   0% {
     background-position: left;
   }
@@ -48,7 +49,7 @@ h1 {
   opacity: 60%
 }
   
-.nav-menu ul {
+.navi-menu ul {
   list-style: none;
   padding: 0;
   margin: 40px;
@@ -58,7 +59,7 @@ h1 {
   gap: 15px;
 }
   
-.nav-menu a {
+.navi-menu a {
   cursor: url("../images/smalldot.png"), grab;
   text-decoration: none;
   font-size: 15px;
@@ -72,22 +73,19 @@ h1 {
   transition: .3s ease-in;
 }
   
-.nav-menu a:hover {
+.navi-menu a:hover {
+  transform: translateY(-20px) scale(1.2);
   color: rgb(255, 255, 255);
-  background-color: #7294a6;
-  border: 2px dotted rgb(255, 255, 255);
-  opacity: 45%;
+  background-color: #7591a1;
+  /*border: 2px dotted rgb(255, 255, 255);*/
+  opacity: 40%;
 }
 
-.nav-menu a:active {
-  color: rgb(255, 255, 255);
-  background-color: #a2b7bc;
-  transition: transform scale(1.1,1.1);
-}
-
-.cursor-circle div{
+/*.cursor-circle div{
   width: 30px;
   height: 30px;
   border: 2px solid hsl(0, 0%, 100%, .75);
   border-radius: 50%
-}
+} */
+
+
