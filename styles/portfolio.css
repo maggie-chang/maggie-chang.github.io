@@ -1,0 +1,10 @@
+
+
+
+.rect-body{
+    height: 100vh;
+    width: auto;
+    background-color: white;
+    opacity: 75%;
+    display: flex;
+}
