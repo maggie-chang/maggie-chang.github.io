@@ -1,4 +1,11 @@
-let buttonEl = document.createElement("div");
-buttonEl.style.backgroundColor = "white";
-buttonEl.classList.add("button");
+const buttonEl = document.getElementsByClassName("btn");
 document.body.appendChild(buttonEl);
+
+buttonEl.addEventListener("click", fuction(e)); {
+    <a href="/index.html"></a>;
+
+};
+
+function usingThis() {
+    
+}

@@ -1,8 +1,18 @@
-.button {
-    width: 100px;
-    height: 100px;
+.btn {
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    opacity: 20%;
     border-radius: 50%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 10px;
-    position: relative;
+}
+
+.rect-body{
+    height: 75vh;
+    width: auto;
+    background-color: white;
+    opacity: 75%;
+    display: flex;
 }
