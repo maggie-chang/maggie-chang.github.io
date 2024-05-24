@@ -1,9 +1,8 @@
-const buttonEl = document.getElementsByClassName("btn");
-document.body.appendChild(buttonEl);
+const buttonEl = document.querySelector(".btn");
+// document.body.appendChild(buttonEl);
+buttonEl.style.left = Math.random() * 700 + "px";
+buttonEl.style.top = Math.random() * 700 + "px";
 
-buttonEl.addEventListener("click", fuction(){
-    if(("buttonEl").clicked == true)
-        {
-        <a href="/index.html"></a>;
-        }
+buttonEl.addEventListener("click", function(){
+    window.location.assign("/");
 });
