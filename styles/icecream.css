@@ -1,9 +1,21 @@
+:root {
+    cursor: url("../images/smalldot.png"), grab;
+}
+
+h1{
+    color: white;
+}
+
+div{
+    color:white
+}
+
 p {
     color: purple;
 }
 
 
-.veryimportant {
+#veryimportant {
     color: white;
     border: 1px white solid;
 }

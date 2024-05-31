@@ -6,3 +6,4 @@ buttonEl.style.top = Math.random() * 700 + "px";
 buttonEl.addEventListener("click", function(){
     window.location.assign("/");
 });
+
