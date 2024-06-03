@@ -2,20 +2,32 @@
     cursor: url("../images/smalldot.png"), grab;
 }
 
-h1{
-    color: white;
+.important{
+    color: rgb(157, 172, 206);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-div{
+.bigcircle{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.clickedtimes div{
     color:white
 }
 
 p {
-    color: purple;
+    color: rgb(206, 110, 206);
 }
 
 
-#veryimportant {
+.veryimportant {
     color: white;
     border: 1px white solid;
 }
