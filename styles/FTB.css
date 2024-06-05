@@ -7,14 +7,6 @@ body,
   background-color: rgb(114, 160, 137);
 }
 
-.rect-body{
-    height: 75vh;
-    width: auto;
-    background-color: white;
-    opacity: 50%;
-    display: flex;
-}
-
 .btn {
     width: 20px;
     height: 20px;
