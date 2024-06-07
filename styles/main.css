@@ -74,7 +74,6 @@ h1 {
 }
   
 .navi-menu a:hover {
-  transform: translateY(-20px) scale(1.2);
   color: rgb(255, 255, 255);
   background-color: #7591a1;
   /*border: 2px dotted rgb(255, 255, 255);*/

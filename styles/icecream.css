@@ -2,6 +2,10 @@
     cursor: url("../images/smalldot.png"), grab;
 }
 
+a{
+    cursor: url("../images/smalldot.png"), grab;
+}
+
 .important {
     color: rgb(157, 172, 206);
 }
@@ -51,7 +55,7 @@ p {
 }
 
 #worstflavor {
-    color: rgb(136, 96, 80);
+    color: rgb(78, 32, 14);
 }
 
 .basicflavor {
@@ -63,11 +67,7 @@ p {
     color: lightblue;
 }
 
-img {
-    adadf;
-}
-
 body {
     background-image: linear-gradient(to bottom, black, rgb(36, 36, 83), lightblue);
-    height: 100vh;
+    height: auto;
 }
