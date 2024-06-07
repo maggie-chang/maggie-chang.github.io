@@ -16,8 +16,12 @@
     
     cursor: url("../images/smalldot.png"), grab;
 
-  }
-  
+}
+
+a{
+  cursor: url("../images/smalldot.png"), grab;
+}
+
 body {
   min-height: 140vh;
   color:#456e82;
@@ -60,7 +64,6 @@ h1 {
 }
   
 .navi-menu a {
-  cursor: url("../images/smalldot.png"), grab;
   text-decoration: none;
   font-size: 15px;
   border-radius: 10%;

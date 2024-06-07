@@ -24,9 +24,10 @@ body{
     margin: 7px;
 }
 
-.smallerheaders .headers{
-    font-size: 5px;
+.smallerheaders.headers{
+    font-size: 12px;
     padding: 3px;
+    opacity: 75%;
 }
 
 .container{
@@ -36,14 +37,14 @@ body{
     width: 71%;
 }
 
-#gallery{
+.gallery{
     height: 300px;
     padding: 20px;
     opacity: 40%;
     transition: .3s ease-out
 }
 
-#gallery:hover{
+.gallery:hover{
     border: 2px dotted rgb(65, 77, 108);
     opacity: 100%;
 }
